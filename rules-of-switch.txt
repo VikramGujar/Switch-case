@@ -1,0 +1,119 @@
+It is a selection statement.
+
+
+It is used to execute one case of statements from no
+of cases according to the switch expression value
+matched with case expression value. In switch the
+program is jumped to matching case like the go to
+label.
+
+
+It is similar to ladder if in working style.
+
+
+Switch performance is high when compared with
+ladder if because of it jumps to matching case.
+
+
+Syntax:
+switch(condition / expression)
+{
+case constexp1:
+statements;
+break;
+
+case constexp2:
+statements;
+break;
+
+case constexpN:
+statements;
+break;
+
+[ default: statements; ]
+
+}
+
+
+Here switch, case, break, default are the keywords.
+
+
+In between case and case expression / value at least
+one space should be provided. Otherwise it will
+become a label.
+
+case expression/value should be a constant
+integer/char value. i.e. float / string not allowed.
+
+One case contains one expression only. 
+case expression doesn’t contain any separators
+like , . etc.
+
+case expression should be end with : (colon)
+
+
+Each case should be separated with break keyword.
+Otherwise remaining cases also executed
+
+
+Duplicate cases not allowed
+
+
+
+Default is optional and we can declare it anywhere in our switch. 
+
+
+Outside case expressions not considered in switch.
+
+Default is part of switch we can not use it outside switch
+
+Switch should have a expression {switch( )}--> NOT Allowed
+
+Case outside switch not allowed
+
+case1: {if you dont give space after case then it will be trated as a label}
+
+break after default is not allowed
+
+if you are running switch without case then it should be closed
+
+if you just place a switch without any case it will give blank screen
+
+but if you dont close it then it will give a error
+
+you can't give a if condition to switch as expression
+
+you can not give a string as a expression in switch
+
+also you can't give floot as expression to switch
+
+rage is not allowed as a case that is {case >0: or case <0}
+
+but condition is allowed { case 1>0 --> it gives true means 1}
+
+you can not give as {switch(1,2) or case 1,2:}
+
+Duplicate cases are not allowed { case 2/2: and case 1/1:}
+
+It is also Duplicate case { case 10 || 20: and case 20 || 10:} beacuse both are gives true bullion result
+
+if you use , operator and give two valuse as expression then it will take right most value {switch(10,20) then it will take 20}
+
+{int a=10,20} Declaration Syntax error you can not declare multiple values at initialization
+
+after initialization { a=10,20;  it is allowed will give result 20}
+
+{switch(a=(10,20),30) will give result 30  beacuse first bracket will resoulve first then outside value}
+
+out side of case any statement is not working beacouse of jumping makanism os switch
+
+You cant give variables as expression to switch {switch(a,b) not allowed}
+
+you can give printf(");-->Returns number of charector and also sizeof();--> Returns number of charector including null charector
+
+any string +number means that number of charector from start should not going to include
+that is {a= *("I like""ABCD"+7)} will give the ascci value of B and if (*) not used it will give address of b
+
+
+
+
